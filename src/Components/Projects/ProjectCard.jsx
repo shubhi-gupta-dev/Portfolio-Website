@@ -13,10 +13,8 @@ const ProjectCard = ({ title, main, imgSrc, hrefs }) => {
 
       <a
         href={hrefs}
-        className=" w-25 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:p-2 md:px-4 hover:opacity-85 duration-300 scale-105 font-semibold rounded-3xl bg-[#465697]"
-      >
-        Demo
-      </a>
+        className="mt-3 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 scale-105 font-semibold rounded-3xl bg-[#465697]"
+      >Demo</a>
     </div>
   );
 };
